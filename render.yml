@@ -1,7 +1,0 @@
-services:
-  - type: cron
-    name: gd-accept-friends
-    runtime: python
-    schedule: "0 12 * * *"
-    buildCommand: pip install -r requirements.txt
-    startCommand: python friend.py
