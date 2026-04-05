@@ -15,7 +15,7 @@ PASSWORD   = os.environ["GD_PASSWORD"] # Set to your account password
 #  Or without auth: "socks5://host:port"
 #  Set to None to disable
 # ─────────────────────────────────────────
-SOCKS5_PROXY = "socks5://174.64.199.79:4145"
+SOCKS5_PROXY = os.environ.get("SOCKS5")
 
 BASE_URL = "http://www.boomlings.com/database"
 SECRET   = "Wmfd2893gb7"
